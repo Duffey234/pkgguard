@@ -1,0 +1,38 @@
+{
+  "name": "pkgguard-mcp",
+  "version": "0.1.1",
+  "description": "Dependency vulnerability and malicious-package scanner for AI coding agents (MCP server + x402 API). Safety check only.",
+  "type": "module",
+  "main": "src/lite.js",
+  "bin": {
+    "pkgguard": "src/mcp-stdio.js",
+    "pkgguard-mcp": "src/mcp-stdio.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/mcp-stdio.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duffey234/pkgguard.git"
+  },
+  "homepage": "https://api.youraitools.co/pkgguard",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "x402",
+    "ai-agents",
+    "pkgguard"
+  ],
+  "dependencies": {}
+}
