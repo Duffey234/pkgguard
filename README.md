@@ -85,7 +85,7 @@ The server then pays the hosted API per call over x402 (Base USDC only, capped p
 ## Test
 
 ```bash
-npm test        # starts the stdio server with no key and checks initialize + tools/list
+npm test        # full test suite (node:test, Node 20 and 22, no network, no key)
 ```
 
 ## Full source

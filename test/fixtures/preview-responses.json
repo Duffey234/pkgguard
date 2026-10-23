@@ -1,0 +1,94 @@
+[
+ {
+  "packages": [
+   {
+    "ecosystem": "npm",
+    "name": "lodash",
+    "version": "4.17.15"
+   },
+   {
+    "ecosystem": "npm",
+    "name": "flatmap-stream",
+    "version": "0.1.1"
+   }
+  ],
+  "response": {
+   "tier": "preview",
+   "package_count": 2,
+   "scanned_count": 2,
+   "unpinned_count": 0,
+   "vulnerable_count": 2,
+   "malicious_count": 1,
+   "advisory_count": 3,
+   "verdict": "malicious",
+   "source": "OSV.dev",
+   "scanned_at": "2026-10-23T19:47:25.351Z",
+   "disclaimer": "Informational: lists published advisories from OSV.dev for the versions given. Not a security audit; a clean result does not prove a package is safe.",
+   "engine": "pkgguard-0.1.1",
+   "full": {
+    "url": "https://pkgguard.example.com/v1/scan",
+    "price": "$0.003 USDC on Base (x402)",
+    "adds": "which packages are affected, advisory ids (CVE/GHSA/MAL), severity and CVSS, fixed-in versions, malicious-package flags, unpinned list"
+   },
+   "upgrade": "Free tier: full results for 30 calls/day on the remote MCP endpoint https://pkgguard.example.com/mcp. Heavy use? Pay per call in USDC via x402 ($0.001/package, $0.003/scan): https://pkgguard.example.com/v1/scan"
+  }
+ },
+ {
+  "packages": [
+   {
+    "ecosystem": "PyPI",
+    "name": "requests",
+    "version": "2.19.0"
+   }
+  ],
+  "response": {
+   "tier": "preview",
+   "package_count": 1,
+   "scanned_count": 1,
+   "unpinned_count": 0,
+   "vulnerable_count": 1,
+   "malicious_count": 0,
+   "advisory_count": 1,
+   "verdict": "vulnerable",
+   "source": "OSV.dev",
+   "scanned_at": "2026-10-23T19:47:25.357Z",
+   "disclaimer": "Informational: lists published advisories from OSV.dev for the versions given. Not a security audit; a clean result does not prove a package is safe.",
+   "engine": "pkgguard-0.1.1",
+   "full": {
+    "url": "https://pkgguard.example.com/v1/package",
+    "price": "$0.001 USDC on Base (x402)",
+    "adds": "which packages are affected, advisory ids (CVE/GHSA/MAL), severity and CVSS, fixed-in versions, malicious-package flags, unpinned list"
+   },
+   "upgrade": "Free tier: full results for 30 calls/day on the remote MCP endpoint https://pkgguard.example.com/mcp. Heavy use? Pay per call in USDC via x402 ($0.001/package, $0.003/scan): https://pkgguard.example.com/v1/scan"
+  }
+ },
+ {
+  "packages": [
+   {
+    "ecosystem": "npm",
+    "name": "left-pad",
+    "version": "1.3.0"
+   }
+  ],
+  "response": {
+   "tier": "preview",
+   "package_count": 1,
+   "scanned_count": 1,
+   "unpinned_count": 0,
+   "vulnerable_count": 0,
+   "malicious_count": 0,
+   "advisory_count": 0,
+   "verdict": "clean",
+   "source": "OSV.dev",
+   "scanned_at": "2026-10-23T19:47:25.359Z",
+   "disclaimer": "Informational: lists published advisories from OSV.dev for the versions given. Not a security audit; a clean result does not prove a package is safe.",
+   "engine": "pkgguard-0.1.1",
+   "full": {
+    "url": "https://pkgguard.example.com/v1/package",
+    "price": "$0.001 USDC on Base (x402)",
+    "adds": "which packages are affected, advisory ids (CVE/GHSA/MAL), severity and CVSS, fixed-in versions, malicious-package flags, unpinned list"
+   },
+   "upgrade": "Free tier: full results for 30 calls/day on the remote MCP endpoint https://pkgguard.example.com/mcp. Heavy use? Pay per call in USDC via x402 ($0.001/package, $0.003/scan): https://pkgguard.example.com/v1/scan"
+  }
+ }
+]
